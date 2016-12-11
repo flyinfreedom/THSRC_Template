@@ -1,0 +1,117 @@
+.System-Name{
+  display: inline;
+  font-size: 1.5em;
+  font-weight:bolder;
+  margin-left: 10px; 
+  color:#595757; 
+}
+
+.sub-Name{
+  font-size: 0.7em;
+}
+
+.head-row > button, .head-row > span{
+  float:left;
+}
+
+.sidebar-brand{
+  color:#fff;
+  background-image: url('../assets/images/THSRC_LOGO.png');
+  background-size: 60%;
+  background-position: 90% 50%;
+  background-repeat: no-repeat;
+}
+
+.sidebar-brand > p > i{
+  margin:20px;
+  cursor: pointer;
+  font-size: 1.0em;
+}
+
+.sidebar-brand > p > i:hover{
+  color:#feae5e;
+}
+
+.sidebar-nav > .active
+{
+    border-left:3px solid #dd5109;
+    background-color: #555555;
+}
+
+.sidebar-nav > .active > a
+{
+    color:#fff;
+}
+
+.img-circle
+{
+  width:100%;
+  height:auto;
+  border-radius: 50%;
+  border:2px solid #f0ad4e;
+}
+
+
+#page-header-wrapper .fa{  
+  font-size: 1.5em;
+  margin:7px 10px;
+  color:#595757;
+  cursor: pointer;
+}
+
+
+.function-block {
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.function-block > div{
+  background-color: #fff;
+  min-height: 30px;
+  border-bottom:1px solid #eeeeee;
+}
+
+.block-header{
+  border-radius: 5px 5px 0px 0px;
+  padding:15px;
+  border-top:2px solid #dd5109;
+}
+
+.block-body{
+  padding:15px;
+  display:block;
+}
+
+.block-footer{
+  border-radius: 0px 0px 5px 5px;
+  padding:15px;
+  text-align:right;
+}
+
+.block-body.row
+{
+  padding: 30px;
+}
+
+.function-block.col-lg-12
+{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@media (max-width: 991px) {
+  .row{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  .block-body.row
+  {
+    padding: 15px;
+  }
+
+  .function-block{
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+}

@@ -1,3 +1,152 @@
-<h1>
-  {{title}}
-</h1>
+<div id="wrapper">
+
+  <!-- Sidebar -->
+  <div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <div class="user-photo">
+          <img src="../assets/images/UserPhoto.jpg" class="img-circle" />
+        </div>
+        <div class="user-info">
+          <span>王彥欽</span>
+          <hr />
+        </div>
+      </li>
+      <li class="active">
+        <a href="#">系統首頁</a>
+      </li>
+      <li>
+        <a href="#">功能導覽</a>
+      </li>
+      <li>
+        <a href="#">交接簿</a>
+      </li>
+      <li>
+        <a href="#">勤務日誌</a>
+      </li>
+      <li>
+        <a href="#">代辦事項</a>
+      </li>
+      <li>
+        <a href="#">系統設定</a>
+      </li>
+    </ul>
+  </div>
+  <!-- /#sidebar-wrapper -->
+
+  <!-- Page Content -->
+  <div id="page-header-wrapper">
+    <div class="container-fluid">
+      <div class="row head-row">
+        <button class="btn btn-warning" type="button" id="menu-toggle">
+            &#9776;
+        </button>
+
+        <span class="System-Name hidden-sm-down hidden-md-down">
+            OCC勤務日誌
+            <span class="sub-Name">
+            ( OCC Duty Log )
+            </span>
+        </span>
+        <div class="pull-right">
+          <i class="fa fa-commenting-o commenting"></i>
+          <i class="fa fa-power-off logOut-btn" data-toggle="tooltip" data-placement="bottom" title="登出"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="page-content-wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 function-block">
+          <div class="block-header">
+            func.01
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="block-body">
+            <div class="form-group">
+              <input type="text" class="form-control" />
+            </div>
+          </div>
+          <div class="block-footer">
+            <button class="btn btn-primary" type="button">送出</button>
+            <button class="btn btn-secondary" type="button">清除</button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 function-block">
+          <div class="block-header">func.02</div>
+          <div class="block-body">sdfs</div>
+          <div class="block-footer"></div>
+        </div>
+        <div class="col-lg-4 col-md-12 function-block">
+          <div class="block-header">func.03</div>
+          <div class="block-body">sdf</div>
+          <div class="block-footer"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="function-block col-lg-12">
+          <div class="block-body row">
+            <span>清單</span>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>工號</th>
+                  <th>姓名</th>
+                  <th>性別</th>
+                  <th>負責系統</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>A023997</td>
+                  <td>簡逸芃</td>
+                  <td><i class="fa fa-female"></i></td>
+                  <td><a href="#">HRWeb</a></td>
+                </tr>
+                <tr>
+                  <td>A023998</td>
+                  <td>王彥欽</td>
+                  <td><i class="fa fa-male"></i></td>
+                  <td><a href="#">EIP</a></td>
+                </tr>
+                <tr>
+                  <td>A024106</td>
+                  <td>梁徽彤</td>
+                  <td><i class="fa fa-male"></i></td>
+                  <td><a href="#">HelpDesk</a></td>
+                </tr>
+                <tr>
+                  <td>A024109</td>
+                  <td>張靜玫</td>
+                  <td><i class="fa fa-female"></i></td>
+                  <td><a href="#">eForm</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 function-block">
+          <div class="block-header">func.04</div>
+          <div class="block-body">sdf</div>
+          <div class="block-footer"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /#page-content-wrapper -->
+
+  <div id="page-footer-wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        copyright &copy; 2016 臺灣高速鐵路股份有限公司
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /#wrapper -->
